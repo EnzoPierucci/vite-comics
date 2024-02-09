@@ -1,20 +1,19 @@
 <script>
-import Header from "./components/headerComp.vue"
-import Main from "./components/mainComp.vue"
-import Footer from "./components/footerComp.vue"
+import HeaderComp from "./components/headerComp.vue"
+//import MainComp from "./components/mainComp.vue"
+//import Footer from "./components/footerComp.vue"
 export default {
     components: {
-        headerComp,
-        mainComp,
-        footerComp,
+        HeaderComp,
+        //mainComp,
+        //footerComp,
     }
 }
 </script>
 
 <template>
-<Header></Header>
-<Main></Main>
-<Footer></Footer>
+<HeaderComp/>
+
 </template>
 
 <style scoped>
