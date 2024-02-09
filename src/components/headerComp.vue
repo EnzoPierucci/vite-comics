@@ -29,7 +29,7 @@ export default {
     <ul class="flex">
           <li class="mr-6"
            v-for="link in navLinks" :key="link.text">
-            <a :href="link.href" class="hover:text-gray-300">{{ link.info }}</a>
+            <a :href="link.href" class="hover:text-gray-300" >{{ link.info }}</a>
           </li>
     </ul>      
   </nav>
