@@ -1,11 +1,11 @@
 <script>
 import HeaderComp from "./components/headerComp.vue"
-//import MainComp from "./components/mainComp.vue"
+import MainComp from "./components/mainComp.vue"
 //import Footer from "./components/footerComp.vue"
 export default {
     components: {
         HeaderComp,
-        //mainComp,
+        MainComp,
         //footerComp,
     }
 }
@@ -13,6 +13,7 @@ export default {
 
 <template>
 <HeaderComp/>
+<MainComp/>
 
 </template>
 

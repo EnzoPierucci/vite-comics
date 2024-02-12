@@ -24,7 +24,7 @@ export default {
     
   <nav class="container mx-auto flex justify-between items-center py-4 px-6">
     <div class="flex items-center">
-        <img src="../assets/img/dc-logo.png" alt="DC Logo" class="h-8 mr-6">
+        <img src="../assets/img/dc-logo.png" alt="DC Logo" class="h-15 mr-6">
     </div>
     <ul class="flex">
           <li class="mr-6"
