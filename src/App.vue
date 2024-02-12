@@ -3,7 +3,7 @@ import HeaderComp from "./components/headerComp.vue"
 import MainComp from "./components/mainComp.vue"
 import BlueBar from "./components/blueComp.vue"
 import FooterComp from "./components/footerComp.vue"
-import SocialComp from "./components/socialComp.vue"
+
 
 
 export default {
@@ -12,7 +12,7 @@ export default {
         MainComp,
         BlueBar,
         FooterComp,
-        SocialComp,
+        
     }
 }
 </script>
