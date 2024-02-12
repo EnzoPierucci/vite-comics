@@ -3,11 +3,11 @@
 </script>
 
 <template>
-    <footer class="bg-footer py-8 bg-cover bg-no-repeat">
-  <div class="container mx-auto px-4 md:px-0 flex flex-wrap justify-between">
+<footer class="bg-footer py-8 bg-cover bg-no-repeat bg-center">
+  <div class="container mx-auto px-4 flex flex-wrap justify-between items-center">
     
     <div class="mb-6 md:mb-0">
-      <h4 class="font-bold mb-4 text-white">DC COMICS</h4>
+      <h4 class="font-bold  text-white">DC COMICS</h4>
       <ul class="list-none text-gray-400">
         <li class="mb-2"><a href="#" class="hover:underline">Characters</a></li>
         <li class="mb-2"><a href="#" class="hover:underline">Comics</a></li>
@@ -20,7 +20,7 @@
     </div>
 
     <div class="mb-6 md:mb-0">
-      <h4 class="font-bold mb-4 text-white">DC</h4>
+      <h4 class="font-bold  text-white">DC</h4>
       <ul class="list-none text-gray-400">
         <li class="mb-2"><a href="#" class="hover:underline">Term of Use</a></li>
         <li class="mb-2"><a href="#" class="hover:underline">Privacy policy (New)</a></li>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="mb-6 md:mb-0">
-      <h4 class="font-bold mb-4 text-white">SITES</h4>
+      <h4 class="font-bold  text-white">SITES</h4>
       <ul class="list-none text-gray-400">
         <li class="mb-2"><a href="#" class="hover:underline">DC</a></li>
         <li class="mb-2"><a href="#" class="hover:underline">MAD Magizine</a></li>
@@ -49,7 +49,7 @@
     </div>
 
     <div class="mb-6 md:mb-0">
-      <h4 class="font-bold mb-4 text-white">DC COMICS</h4>
+      <h4 class="font-bold text-white">DC COMICS</h4>
       <ul class="list-none text-gray-400">
         <li class="mb-2"><a href="#" class="hover:underline">Characters</a></li>
         <li class="mb-2"><a href="#" class="hover:underline">Comics</a></li>
@@ -61,7 +61,9 @@
       </ul>
     </div>
 
-
+    <div class="w-full md:w-auto mb-6 md:mb-0 md:flex-1">
+      <img src="../assets/img/dc-logo-bg.png" alt="Large Logo" class="mx-auto mb-6">
+    </div>
     
     
 </div>
